@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game!</title>
+        <link rel="stylesheet" href="game.css" />
+    </head>
+
+    <body>
+        <!-- main container -->
+        <div class="container">
+            <!-- left -->
+            <div class="left">
+                <p id="you">0</p>
+                <p>You</p>
+            </div>
+
+            <div class="vl"></div>
+
+            <!-- mid -->
+            <div class="mid">
+                <h1>Rock < Paper < Scissor</h1>
+                <div class="options">
+                    <div class="option" id="ROCK">
+                        <img src="rock.png" />
+                    </div>
+                    <div class="option" id="PAPER">
+                        <img src="paper.png" />
+                    </div>
+                    <div class="option" id="SCISSOR">
+                        <img src="scissors.png" />
+                    </div>
+                </div>
+
+                <div class="display" id="msg">Play!</div>
+
+                <div class="display">
+                    <p class="msg" id="msg1">Play your turn.</p>
+                </div>
+            </div>
+
+            <div class="vl"></div>
+
+            <!-- right -->
+            <div class="right">
+                <p id="comp">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+
+        <script src="game.js"></script>
+    </body>
+</html>
